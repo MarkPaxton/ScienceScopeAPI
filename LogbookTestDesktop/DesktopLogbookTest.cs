@@ -6,16 +6,16 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using ScienceScope;
-using Logs;
-using SensorShare;
 using System.Threading;
+using mcp;
+using mcp.Logs;
 
 namespace LogbookTest
 {
     public partial class DesktopLogbookTest : Form
     {
         protected Logbook logbook = null;
-        protected const string logbookPort = "COM5";
+        protected const string logbookPort = "COM14";
 
         protected const int logLines = 100;
 
@@ -35,10 +35,11 @@ namespace LogbookTest
         private void DesktopLogbookTest_Load(object sender, EventArgs e)
         {
             displayMessage = new LogMessageEventHandler(displayMessage);
-            log.OnLogMessage += displayMessage;
+            log.LogMessage += displayMessage;
             log.Start();
 
             log.Append("DesktopLogbookTest_Load", String.Format("{0} {1}", "Starting on", System.Net.Dns.GetHostName()));
+            log.Append("DesktopLogbookTest_Load", String.Format("Connect your Logbook to {0}", logbookPort));
         }
 
         public void UpdateTextBoxInvoke(TextBox box, string displayText, int linesToshow)

@@ -1,0 +1,8 @@
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\LogbookTest.CompactLogbookTest.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\LogbookTestCompact.Properties.Resources.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\LogbookTestCompact.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\bin\Debug\LogbookTestCompact.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\bin\Debug\LogbookTestCompact.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\LogbookTestCompact.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestCompact\obj\Debug\LogbookTestCompact.pdb

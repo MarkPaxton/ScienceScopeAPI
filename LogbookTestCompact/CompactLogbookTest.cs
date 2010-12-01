@@ -5,16 +5,17 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using ScienceScope;
 using SensorShare;
-using Logs;
+using mcp;
+using mcp.Logs;
+using ScienceScope;
 
 namespace LogbookTest
 {
     public partial class CompactLogbookTest : Form
     {
         protected Logbook logbook = null;
-        protected const string logbookPort = "COM21";
+        protected const string logbookPort = "COM8";
 
         protected const int logLines = 50;
 
@@ -35,7 +36,7 @@ namespace LogbookTest
         private void CompactLogbookTest_Load(object sender, EventArgs e)
         {
             displayMessage = new LogMessageEventHandler(displayMessage);
-            log.OnLogMessage += displayMessage;
+            log.LogMessage += displayMessage;
             log.Start();
 
             log.Append("CompactLogbookTest_Load", String.Format("{0} {1}", "Starting on", System.Net.Dns.GetHostName()));

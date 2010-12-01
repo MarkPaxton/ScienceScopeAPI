@@ -5,8 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using mcp;
+using mcp.Logs;
 using ScienceScope;
-using Logs;
 
 namespace LogbookTest
 {

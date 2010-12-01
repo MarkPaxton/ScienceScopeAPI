@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScienceScope", "ScienceScope\ScienceScope.csproj", "{880AD4FD-BBB7-4537-B0E9-8378FF7E6A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopLogbookTest", "LogbookTest\DesktopLogbookTest.csproj", "{D54BA5BD-A873-4592-9803-1D91901A5F80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogbookTestDesktop", "LogbookTestDesktop\LogbookTestDesktop.csproj", "{D54BA5BD-A873-4592-9803-1D91901A5F80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogbookTestCompact", "LogbookTestCompact\LogbookTestCompact.csproj", "{C304D9BA-308A-413E-9614-1DB140B85DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{422A4B5B-ECBF-4A15-87D3-5CAD2602B746}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,5 +48,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C304D9BA-308A-413E-9614-1DB140B85DBF} = {422A4B5B-ECBF-4A15-87D3-5CAD2602B746}
+		{D54BA5BD-A873-4592-9803-1D91901A5F80} = {422A4B5B-ECBF-4A15-87D3-5CAD2602B746}
 	EndGlobalSection
 EndGlobal

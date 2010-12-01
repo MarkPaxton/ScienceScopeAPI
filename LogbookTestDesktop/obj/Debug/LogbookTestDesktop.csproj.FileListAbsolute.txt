@@ -1,0 +1,7 @@
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestDesktop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestDesktop\obj\Debug\LogbookTest.DesktopLogbookTest.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestDesktop\obj\Debug\LogbookTestDesktop.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\bin\Debug\LogbookTest.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\bin\Debug\LogbookTest.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestDesktop\obj\Debug\LogbookTest.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\ScienceScopeAPI\LogbookTestDesktop\obj\Debug\LogbookTest.pdb

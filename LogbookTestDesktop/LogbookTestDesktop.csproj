@@ -49,11 +49,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Log, Version=1.0.3987.21373, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Log.dll</HintPath>
+    </Reference>
+    <Reference Include="mcp, Version=1.0.3987.21373, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\mcp.dll</HintPath>
+    </Reference>
+    <Reference Include="mcp.Desktop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Desktop\mcp.Desktop.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.61.0, Culture=neutral, PublicKeyToken=1fdb50b1b62b4c84, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -66,51 +82,19 @@
     <Compile Include="DesktopLogbookTest.Designer.cs">
       <DependentUpon>DesktopLogbookTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="LobookTest\LobookEvents.cs">
+    <Compile Include="LogbookTest\LogbookEvents.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DesktopLogbookTest.resx">
       <SubType>Designer</SubType>
       <DependentUpon>DesktopLogbookTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\SensorShare\Graphics\Graphs.csproj">
-      <Project>{29AD2647-FE73-4DF2-AC0C-E00119B304CD}</Project>
-      <Name>Graphs</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\SensorShare\Log\Logs.csproj">
-      <Project>{B56EBCA1-DFB7-4158-8158-E04E68A16E56}</Project>
-      <Name>Logs</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ScienceScope\ScienceScope.csproj">
       <Project>{880AD4FD-BBB7-4537-B0E9-8378FF7E6A09}</Project>
       <Name>ScienceScope</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\SensorShare\SensorAppShared\SensorShare.csproj">
-      <Project>{E602D00D-71C1-491C-916A-8F6956E2779B}</Project>
-      <Name>SensorShare</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +113,9 @@
       <ProductName>.NET Framework 3.5</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
